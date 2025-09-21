@@ -1,0 +1,47 @@
+/* Base setup */
+body {
+  margin: 0;
+  font-family: 'Cascadia Mono', Consolas, 'Courier New', monospace;
+  background-color: #282828;
+  color: #ebdbb2;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #fabd2f;
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #83a598;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b8bb26;
+}
+
+/* Recipe container */
+.recipe {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #3c3836;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* Lists */
+ul, ol {
+  margin: 10px 0 20px 20px;
+}
+
+/* Images */
+.recipe img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 2px solid #928374;
+}
